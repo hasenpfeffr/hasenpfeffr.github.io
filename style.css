@@ -7,10 +7,10 @@ h1
 
 body 
 { 
-  background-color: #FF00FF;
+  background-color: #FFFF00;
 }
 #body {
-	background: #FF00FF;
+	background: #FFFF00;
 }
 table 
 {
@@ -25,7 +25,7 @@ table
 
 th, td 
 {
-    border-bottom: 8px solid #FF00FF;
+    border-bottom: 8px solid #FFFF00;
 }
 
 td 
