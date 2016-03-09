@@ -7,10 +7,10 @@ h1
 
 body 
 { 
-  background-color: #8888ff;
+  background-color: #1e90ff;
 }
 #body {
-	background: #8888ff;
+	background: #1e90ff;
 }
 table 
 {
@@ -25,7 +25,7 @@ table
 
 th, td 
 {
-    border-bottom: 8px solid #8888ff;
+    border-bottom: 8px solid #1e90ff;
 }
 
 td 
@@ -33,7 +33,7 @@ td
 	
   	font-size: 2.0em;
 	text-align:left;
-	background-color:#999999; 
+	background-color:#fce6c9; 
 }
 
 th 
