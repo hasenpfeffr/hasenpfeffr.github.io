@@ -1,67 +1,33 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script> 
 $(document).ready(function(){
-    $("#mmm").click(function(){
-        $("#sad").slideDown("slow");
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
     });
 });
 </script>
-<title>
-  The Legit OU Team
-</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+ 
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
 </head>
-<body id="body">
-<h1><div id="mmm">Top 4 Sweepers </div></h1>
-<div id="sad">
-    <p>You have just experienced some rank cascades, hypertext, and javascript</p>
-</div>
-  <table>
-    <tr><th>Pokemon</th><th>Descriptions</th><th>Team Combos</th></tr>
-    <tr><td><a href="http://www.smogon.com/dex/xy/pokemon/serperior/"><img src="serperior1.png"></a></td><td>You can use Substitute and your ability makes your attack increase rather than decrease, so spam Leaf Storm for up to 6x damage with STAB.</td>
-    <td>
-      <button onclick="combo1()">Combos</button>
-
-      <script>
-      function combo1() {
-      alert("Serpior does well with Klefki after a dual screen cripple is set up.");
-      }
-    </script>
-    </td></tr>
-    <tr><td><a href="http://www.smogon.com/dex/xy/pokemon/excadrill/"><img src="excadrill1.png"></a></td><td>During a sandstorm, no pokemon outspeeds you. You have high base damage and effective STAB. If you catch your opponent off guard, you can Swords Dance to 100-0 anyone.</td>
-    <td><button onclick="combo2()">Combos</button>
-
-      <script>
-      function combo2() {
-      alert("Excadrill needs either Tyranitar or Hippowdon with Sandstream and Sand Rock to be good.");
-      }
-    </script>
-    </td></tr>
-    <tr><td><a href="http://www.smogon.com/dex/xy/pokemon/azumarill/"><img src="azumarill1.png"></a></td><td>You have high base defensive stats for the first turn. Use Belly Drum to achieve 6x damage with STAB and Aqua Jet, a STAB priority takes care of the rest.</td>
-    <td><button onclick="combo3()">Combos</button>
-
-      <script>
-      function combo3() {
-      alert("Azumarill does well with Klefki after a dual screen cripple is set up, when Rain Dance is active, or with a Baton Substitute");
-      }
-    </script>
-    </td></tr>
-    <tr><td><a href="http://www.smogon.com/dex/xy/pokemon/bisharp/"><img src="bisharp1.png"></a></td><td>Your base attack is really high. Your STAB moves do extra damage and take away the opponent's items. Your ability makes your stats increase instead of lower. You have access to Sucker Punch, a priority STAB move.</td>
-    <td><button onclick="combo4()">Combos</button>
-
-      <script>
-      function combo4() {
-      alert("Bisharp thrives from a Substitute Pass and Swords Dance.");
-      }
-    </script>
-    </td></tr>
-  </table>
-
-<div id="credits">
-  <p>This website was created by Grant "G Buttersnaps" Roess and Danny "D Money" Spencer</p>
-</div>
+<body>
+ 
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
 
 </body>
 </html>
