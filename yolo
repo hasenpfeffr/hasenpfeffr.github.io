@@ -1,3 +1,11 @@
+
+<!--
+221indexB.html demonstrates basic JavaScript and CSS
+Unpublished work (c)2013 Project Lead The Way
+CSE Activity 2.2.1 HTML5andJavaScript
+Version 12/19/2013 
+-->
+
 <html>
 <head>
 	<style = "text/css">
@@ -38,3 +46,13 @@
 		}
 	</script>
 </head>
+<body onload="initPopout();">
+<br>
+<table>
+	<caption>Your Results:</caption>
+	<tbody>
+	<tr>
+		<td>
+			<img id="image1" src="aprilla/pic1thumb.jpg"><div id = "img1popin"></div>
+		</td>
+		<td>
