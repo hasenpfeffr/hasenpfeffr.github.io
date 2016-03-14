@@ -49,4 +49,8 @@ th
 	text-align:right;
 	color:#fdf3ec;
 }
-
+#sad
+{
+    padding: 10px;
+    display: none;
+    border: solid 5px #fce6c9;
